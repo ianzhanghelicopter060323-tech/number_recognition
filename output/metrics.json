@@ -1,0 +1,21 @@
+{
+  "config": {
+    "epochs": 30,
+    "batch_size": 128,
+    "learning_rate": 0.005,
+    "seed": 42,
+    "threads": 2,
+    "device": "cpu",
+    "data_dir": "/home/ianzhang/ai_foundation_prog/number_recog/data",
+    "output_dir": "/home/ianzhang/ai_foundation_prog/number_recog/output"
+  },
+  "torch_version": "2.4.1+cpu",
+  "train_samples": 60000,
+  "test_samples": 10000,
+  "best_epoch": 20,
+  "best_test_accuracy": 0.9765,
+  "best_test_loss": 0.09070419017660897,
+  "last_test_accuracy": 0.9756,
+  "elapsed_seconds": 22.28128634699999,
+  "selection_note": "沿用任务书按测试准确率选择模型，无独立验证集；该测试结果不代表独立泛化评估。"
+}

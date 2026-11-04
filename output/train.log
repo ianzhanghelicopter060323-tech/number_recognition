@@ -1,0 +1,75 @@
+0.3%0.7%1.0%1.3%1.7%2.0%2.3%2.6%3.0%3.3%3.6%4.0%4.3%4.6%5.0%5.3%5.6%6.0%6.3%6.6%6.9%7.3%7.6%7.9%8.3%8.6%8.9%9.3%9.6%9.9%10.2%10.6%10.9%11.2%11.6%11.9%12.2%12.6%12.9%13.2%13.6%13.9%14.2%14.5%14.9%15.2%15.5%15.9%16.2%16.5%16.9%17.2%17.5%17.9%18.2%18.5%18.8%19.2%19.5%19.8%20.2%20.5%20.8%21.2%21.5%21.8%22.1%22.5%22.8%23.1%23.5%23.8%24.1%24.5%24.8%25.1%25.5%25.8%26.1%26.4%26.8%27.1%27.4%27.8%28.1%28.4%28.8%29.1%29.4%29.8%30.1%30.4%30.7%31.1%31.4%31.7%32.1%32.4%32.7%33.1%33.4%33.7%34.0%34.4%34.7%35.0%35.4%35.7%36.0%36.4%36.7%37.0%37.4%37.7%38.0%38.3%38.7%39.0%39.3%39.7%40.0%40.3%40.7%41.0%41.3%41.7%42.0%42.3%42.6%43.0%43.3%43.6%44.0%44.3%44.6%45.0%45.3%45.6%45.9%46.3%46.6%46.9%47.3%47.6%47.9%48.3%48.6%48.9%49.3%49.6%49.9%50.2%50.6%50.9%51.2%51.6%51.9%52.2%52.6%52.9%53.2%53.6%53.9%54.2%54.5%54.9%55.2%55.5%55.9%56.2%56.5%56.9%57.2%57.5%57.9%58.2%58.5%58.8%59.2%59.5%59.8%60.2%60.5%60.8%61.2%61.5%61.8%62.1%62.5%62.8%63.1%63.5%63.8%64.1%64.5%64.8%65.1%65.5%65.8%66.1%66.4%66.8%67.1%67.4%67.8%68.1%68.4%68.8%69.1%69.4%69.8%70.1%70.4%70.7%71.1%71.4%71.7%72.1%72.4%72.7%73.1%73.4%73.7%74.0%74.4%74.7%75.0%75.4%75.7%76.0%76.4%76.7%77.0%77.4%77.7%78.0%78.3%78.7%79.0%79.3%79.7%80.0%80.3%80.7%81.0%81.3%81.7%82.0%82.3%82.6%83.0%83.3%83.6%84.0%84.3%84.6%85.0%85.3%85.6%85.9%86.3%86.6%86.9%87.3%87.6%87.9%88.3%88.6%88.9%89.3%89.6%89.9%90.2%90.6%90.9%91.2%91.6%91.9%92.2%92.6%92.9%93.2%93.6%93.9%94.2%94.5%94.9%95.2%95.5%95.9%96.2%96.5%96.9%97.2%97.5%97.9%98.2%98.5%98.8%99.2%99.5%99.8%100.0%
+100.0%
+2.0%4.0%6.0%7.9%9.9%11.9%13.9%15.9%17.9%19.9%21.9%23.8%25.8%27.8%29.8%31.8%33.8%35.8%37.8%39.7%41.7%43.7%45.7%47.7%49.7%51.7%53.7%55.6%57.6%59.6%61.6%63.6%65.6%67.6%69.6%71.5%73.5%75.5%77.5%79.5%81.5%83.5%85.5%87.4%89.4%91.4%93.4%95.4%97.4%99.4%100.0%
+100.0%Downloading http://yann.lecun.com/exdb/mnist/train-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-images-idx3-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/train-images-idx3-ubyte.gz
+Extracting /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/train-images-idx3-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/train-labels-idx1-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/train-labels-idx1-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/train-labels-idx1-ubyte.gz
+Extracting /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/train-labels-idx1-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-images-idx3-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-images-idx3-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/t10k-images-idx3-ubyte.gz
+Extracting /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/t10k-images-idx3-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw
+
+Downloading http://yann.lecun.com/exdb/mnist/t10k-labels-idx1-ubyte.gz
+Failed to download (trying next):
+HTTP Error 404: Not Found
+
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz
+Downloading https://ossci-datasets.s3.amazonaws.com/mnist/t10k-labels-idx1-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/t10k-labels-idx1-ubyte.gz
+Extracting /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw/t10k-labels-idx1-ubyte.gz to /home/ianzhang/ai_foundation_prog/number_recog/data/MNIST/raw
+
+Train: 60000, Test: 10000, device: cpu
+First image: shape=(1, 28, 28), range=[-1.0, 1.0], label=5
+MultilayerPerceptron(
+  (fc1): Linear(in_features=784, out_features=100, bias=True)
+  (fc2): Linear(in_features=100, out_features=100, bias=True)
+  (fc3): Linear(in_features=100, out_features=10, bias=True)
+)
+Epoch 01/30  lr=0.005  train_loss=0.3717  train_acc=88.32%  test_loss=0.2150  test_acc=93.38%
+Epoch 02/30  lr=0.005  train_loss=0.1768  train_acc=94.50%  test_loss=0.1515  test_acc=95.12%
+Epoch 03/30  lr=0.005  train_loss=0.1516  train_acc=95.25%  test_loss=0.1295  test_acc=96.03%
+Epoch 04/30  lr=0.005  train_loss=0.1365  train_acc=95.76%  test_loss=0.1458  test_acc=95.49%
+Epoch 05/30  lr=0.005  train_loss=0.1230  train_acc=96.24%  test_loss=0.1276  test_acc=96.08%
+Epoch 06/30  lr=0.005  train_loss=0.1132  train_acc=96.53%  test_loss=0.1433  test_acc=95.66%
+Epoch 07/30  lr=0.005  train_loss=0.1075  train_acc=96.66%  test_loss=0.1324  test_acc=96.00%
+Epoch 08/30  lr=0.005  train_loss=0.1055  train_acc=96.73%  test_loss=0.1344  test_acc=96.48%
+Epoch 09/30  lr=0.005  train_loss=0.0854  train_acc=97.34%  test_loss=0.0967  test_acc=97.31%
+Epoch 10/30  lr=0.0005  train_loss=0.0451  train_acc=98.56%  test_loss=0.0905  test_acc=97.49%
+Epoch 11/30  lr=0.0005  train_loss=0.0395  train_acc=98.71%  test_loss=0.0893  test_acc=97.53%
+Epoch 12/30  lr=0.0005  train_loss=0.0360  train_acc=98.85%  test_loss=0.0910  test_acc=97.60%
+Epoch 13/30  lr=0.0005  train_loss=0.0333  train_acc=98.92%  test_loss=0.0925  test_acc=97.51%
+Epoch 14/30  lr=0.0005  train_loss=0.0317  train_acc=98.97%  test_loss=0.0907  test_acc=97.51%
+Epoch 15/30  lr=0.0005  train_loss=0.0293  train_acc=99.09%  test_loss=0.0902  test_acc=97.51%
+Epoch 16/30  lr=0.0005  train_loss=0.0273  train_acc=99.13%  test_loss=0.0898  test_acc=97.58%
+Epoch 17/30  lr=0.0005  train_loss=0.0262  train_acc=99.21%  test_loss=0.0911  test_acc=97.53%
+Epoch 18/30  lr=0.0005  train_loss=0.0210  train_acc=99.39%  test_loss=0.0899  test_acc=97.62%
+Epoch 19/30  lr=5e-05  train_loss=0.0198  train_acc=99.44%  test_loss=0.0904  test_acc=97.62%
+Epoch 20/30  lr=5e-05  train_loss=0.0195  train_acc=99.46%  test_loss=0.0907  test_acc=97.65%
+Epoch 21/30  lr=5e-05  train_loss=0.0192  train_acc=99.46%  test_loss=0.0914  test_acc=97.57%
+Epoch 22/30  lr=5e-05  train_loss=0.0190  train_acc=99.48%  test_loss=0.0913  test_acc=97.61%
+Epoch 23/30  lr=5e-05  train_loss=0.0188  train_acc=99.48%  test_loss=0.0912  test_acc=97.62%
+Epoch 24/30  lr=5e-05  train_loss=0.0185  train_acc=99.50%  test_loss=0.0926  test_acc=97.63%
+Epoch 25/30  lr=5e-05  train_loss=0.0184  train_acc=99.50%  test_loss=0.0922  test_acc=97.55%
+Epoch 26/30  lr=5e-05  train_loss=0.0181  train_acc=99.51%  test_loss=0.0920  test_acc=97.61%
+Epoch 27/30  lr=5e-06  train_loss=0.0176  train_acc=99.54%  test_loss=0.0920  test_acc=97.59%
+Epoch 28/30  lr=5e-06  train_loss=0.0176  train_acc=99.55%  test_loss=0.0921  test_acc=97.59%
+Epoch 29/30  lr=5e-06  train_loss=0.0175  train_acc=99.55%  test_loss=0.0922  test_acc=97.57%
+Epoch 30/30  lr=5e-06  train_loss=0.0175  train_acc=99.55%  test_loss=0.0922  test_acc=97.56%
+
+Best epoch: 20, test accuracy: 97.65%
+Outputs: /home/ianzhang/ai_foundation_prog/number_recog/output

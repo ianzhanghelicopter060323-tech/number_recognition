@@ -1,0 +1,53 @@
+{
+  "review_date": "2026-11-04",
+  "scope": "existing 30-epoch artifacts re-evaluated; current entry point trained for 1 epoch in temporary directory",
+  "train_samples": 60000,
+  "test_samples": 10000,
+  "epochs_in_history": 30,
+  "batch_steps": 14070,
+  "samples_seen": 1800000,
+  "history_weighted_statistics": "passed",
+  "learning_rate_all_steps": "passed",
+  "model_reload": {
+    "best_model.pt": {
+      "loss": 0.09070419017660897,
+      "accuracy": 0.9765
+    },
+    "last_model.pt": {
+      "loss": 0.09219248684789054,
+      "accuracy": 0.9756
+    }
+  },
+  "single_image_prediction": 7,
+  "normalization_and_inversion": "passed",
+  "png_integrity": "passed",
+  "plot_only": "passed",
+  "one_epoch_smoke_accuracy": 0.9338,
+  "original_artifacts_unchanged": true,
+  "compileall": "passed",
+  "pip_check": "passed",
+  "original_sha256": {
+    "last_model.pt": "f07c844a47f9c2b39f0c78c693e177578cc83925d44bfa82f31108d98ba7bab7",
+    "test_predictions.png": "5ad06e465cd1903329f5b6edfccc2c2b54487c50d8538966f1bbf06e9951feef",
+    "training_curves.png": "3827bff34cf92119017d9862d4c4ba7645e87e46f96065fc1291906cff8a5ea6",
+    "train.log": "93474a4b1dab4d476badd2e69e666bb863d876cbaedda1a62fc9ff7be760b20b",
+    "metrics.json": "85696451732ed3381c9ff2e1eae1c041eadd9d172875205d6f3954131067ce67",
+    "best_model.pt": "4ccbc2eb2cb4ff7e8ae4ffe6f53e9756c355d58584ee559b70097982175c9f0a",
+    "batch_history.csv": "17a533c9af00401d0107e5aff3eb14ac03c151389a8d35ff4a18bb85b8a7e3b0",
+    "sample_digit.png": "4765a6a3323bab81763ab13ad5f0370ddc653ba00dc3f817f1e7f7a0ae8f2d9d",
+    "verification.json": "85d33d93a094c0b5cea1939d0d9b4df84339703234592f53ededbe9808472213",
+    "sample_prediction.json": "a5bc9b8ba6649b9f566b186422a45b8e82fba1416402e766ab56ffba875de362",
+    "epoch_history.csv": "505f3c00d4744c78a0d8cbc89ad1f6264aa5e13a7d2c80bb058e54178b8ab24f"
+  },
+  "pyright": {
+    "version": "1.1.414",
+    "python_version": "3.8",
+    "mode": "standard",
+    "filesAnalyzed": 6,
+    "errorCount": 0,
+    "warningCount": 0,
+    "informationCount": 0,
+    "timeInSec": 1.111
+  },
+  "visual_inspection": "training_curves.png and test_predictions.png: labels, axes, legends and margins checked"
+}
