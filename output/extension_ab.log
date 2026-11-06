@@ -1,0 +1,20 @@
+A: 9765/10000 correct; 235 errors
+B constant seed=42 epoch=10 validation=95.97%
+B constant seed=42 epoch=20 validation=96.37%
+B constant seed=42 epoch=30 validation=96.61%
+B step seed=42 epoch=10 validation=95.97%
+B step seed=42 epoch=20 validation=97.50%
+B step seed=42 epoch=30 validation=97.49%
+B constant seed=43 epoch=10 validation=94.90%
+B constant seed=43 epoch=20 validation=96.36%
+B constant seed=43 epoch=30 validation=96.42%
+B step seed=43 epoch=10 validation=94.90%
+B step seed=43 epoch=20 validation=97.60%
+B step seed=43 epoch=30 validation=97.59%
+B constant seed=44 epoch=10 validation=95.95%
+B constant seed=44 epoch=20 validation=95.62%
+B constant seed=44 epoch=30 validation=96.02%
+B step seed=44 epoch=10 validation=95.95%
+B step seed=44 epoch=20 validation=97.35%
+B step seed=44 epoch=30 validation=97.40%
+B completed: {"constant": {"mean_test_accuracy": 0.9682666666666666, "sample_std_test_accuracy": 0.002203028218914477}, "step": {"mean_test_accuracy": 0.9763333333333333, "sample_std_test_accuracy": 0.0012897028081435675}}

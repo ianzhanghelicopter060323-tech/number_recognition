@@ -1,0 +1,100 @@
+{
+  "runs": [
+    {
+      "strategy": "constant",
+      "seed": 42,
+      "best_epoch": 28,
+      "best_validation_accuracy": 0.9668,
+      "training_seconds": 19.794345874999635,
+      "steps": 11730,
+      "initial_weights_sha256": "b940f8e5a3b16ee7a734541a39320cbd1e37efca98a4d9006223c7b03d3a518d",
+      "training_order_sha256": "11a09d7ef13f79bdb6f08f992d1ff400b222b57b10ed1ade3712d323097c1553",
+      "test_correct": 9660,
+      "test_accuracy": 0.966,
+      "test_loss": 0.16814780235290527
+    },
+    {
+      "strategy": "step",
+      "seed": 42,
+      "best_epoch": 24,
+      "best_validation_accuracy": 0.9761,
+      "training_seconds": 20.34918281099999,
+      "steps": 11730,
+      "initial_weights_sha256": "b940f8e5a3b16ee7a734541a39320cbd1e37efca98a4d9006223c7b03d3a518d",
+      "training_order_sha256": "11a09d7ef13f79bdb6f08f992d1ff400b222b57b10ed1ade3712d323097c1553",
+      "test_correct": 9767,
+      "test_accuracy": 0.9767,
+      "test_loss": 0.10346850752830505
+    },
+    {
+      "strategy": "constant",
+      "seed": 43,
+      "best_epoch": 25,
+      "best_validation_accuracy": 0.9693,
+      "training_seconds": 20.198489014000188,
+      "steps": 11730,
+      "initial_weights_sha256": "0a6f5a093e28566bbef8a60353fc35e248ac184b1a96b32bc6259422c9ca722a",
+      "training_order_sha256": "b053dafca1bc2341e140226b03fdd29e65f4c0d022ab0dbf9f1176eaf01d2fbe",
+      "test_correct": 9704,
+      "test_accuracy": 0.9704,
+      "test_loss": 0.14325542747974396
+    },
+    {
+      "strategy": "step",
+      "seed": 43,
+      "best_epoch": 14,
+      "best_validation_accuracy": 0.9767,
+      "training_seconds": 20.395051176999914,
+      "steps": 11730,
+      "initial_weights_sha256": "0a6f5a093e28566bbef8a60353fc35e248ac184b1a96b32bc6259422c9ca722a",
+      "training_order_sha256": "b053dafca1bc2341e140226b03fdd29e65f4c0d022ab0dbf9f1176eaf01d2fbe",
+      "test_correct": 9774,
+      "test_accuracy": 0.9774,
+      "test_loss": 0.09322775900363922
+    },
+    {
+      "strategy": "constant",
+      "seed": 44,
+      "best_epoch": 28,
+      "best_validation_accuracy": 0.966,
+      "training_seconds": 20.42062909299966,
+      "steps": 11730,
+      "initial_weights_sha256": "826b68d6061b2a76539a6d07e440acc330531e948b52c4b921c2ed723b8c87a4",
+      "training_order_sha256": "a7990367959ec1662feebcd88b45ddb330bd06a74eee4d32107db5c29b0790c6",
+      "test_correct": 9684,
+      "test_accuracy": 0.9684,
+      "test_loss": 0.15397091209888458
+    },
+    {
+      "strategy": "step",
+      "seed": 44,
+      "best_epoch": 30,
+      "best_validation_accuracy": 0.974,
+      "training_seconds": 20.574742950000655,
+      "steps": 11730,
+      "initial_weights_sha256": "826b68d6061b2a76539a6d07e440acc330531e948b52c4b921c2ed723b8c87a4",
+      "training_order_sha256": "a7990367959ec1662feebcd88b45ddb330bd06a74eee4d32107db5c29b0790c6",
+      "test_correct": 9749,
+      "test_accuracy": 0.9749,
+      "test_loss": 0.10318956524133682
+    }
+  ],
+  "aggregates": {
+    "constant": {
+      "mean_test_accuracy": 0.9682666666666666,
+      "sample_std_test_accuracy": 0.002203028218914477
+    },
+    "step": {
+      "mean_test_accuracy": 0.9763333333333333,
+      "sample_std_test_accuracy": 0.0012897028081435675
+    }
+  },
+  "paired_step_minus_constant": [
+    0.010700000000000043,
+    0.007000000000000006,
+    0.00649999999999995
+  ],
+  "paired_mean": 0.008066666666666666,
+  "paired_sample_std": 0.002294195574342675,
+  "note": "三个训练种子共用同一划分；标准差描述训练随机性，不代表总体置信区间。"
+}

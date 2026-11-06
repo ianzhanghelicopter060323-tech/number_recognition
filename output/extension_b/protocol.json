@@ -1,0 +1,45 @@
+{
+  "split_seed": 42,
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 30,
+  "batch_size": 128,
+  "initial_learning_rate": 0.005,
+  "step_size": 4000,
+  "gamma": 0.1,
+  "train_samples": 50000,
+  "validation_samples": 10000,
+  "test_samples": 10000,
+  "train_class_counts": [
+    4936,
+    5618,
+    4965,
+    5109,
+    4868,
+    4517,
+    4932,
+    5221,
+    4876,
+    4958
+  ],
+  "validation_class_counts": [
+    987,
+    1124,
+    993,
+    1022,
+    974,
+    904,
+    986,
+    1044,
+    975,
+    991
+  ],
+  "torch_version": "2.4.1+cpu",
+  "numpy_version": "1.24.4",
+  "threads": 2,
+  "device": "cpu",
+  "selection": "max validation accuracy; earliest epoch for ties; test only after all six training runs"
+}

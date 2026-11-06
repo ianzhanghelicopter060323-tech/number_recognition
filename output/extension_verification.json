@@ -1,0 +1,43 @@
+{
+  "command": ".venv/bin/python main.py --experiment AB",
+  "basic_artifacts_unchanged": true,
+  "A": {
+    "samples": 10000,
+    "correct": 9765,
+    "errors": 235,
+    "matrix_and_class_metrics": "passed"
+  },
+  "B": {
+    "runs": 6,
+    "epochs_each": 30,
+    "steps_each": 11730,
+    "split_partition": "passed",
+    "paired_initial_weights_and_sample_order": "passed",
+    "paired_first_4000_steps_identical": "passed",
+    "all_learning_rates_and_weighted_training_statistics": "passed",
+    "validation_selected_weights_reload": "passed",
+    "test_predictions_recount": "passed",
+    "aggregation_sample_std_ddof": 1
+  },
+  "compileall": "passed",
+  "pyright": {
+    "filesAnalyzed": 7,
+    "errorCount": 0,
+    "warningCount": 0,
+    "informationCount": 0,
+    "timeInSec": 1.481
+  },
+  "png_integrity": "passed",
+  "source_sha256": {
+    "main.py": "95ad8d9de3c7b7b8be7c4b6c12c2e4ce14539e38880c8ebaecc52f6ccf04af77",
+    "src/model.py": "31656e5eb6bc96289d08f51096cc716b65bdbfb521cfbbabfce9c081f62ef30d",
+    "src/train.py": "b91a87adc2eeeef7501cdaf60d578189e1c7ee0b067c0004dc493ad410d19940",
+    "src/predict.py": "d11a363119c96a69ae9293bfef16efe9e805feb2d223516c85ae2b4bd15703ae",
+    "src/data.py": "b5f259d41c9c10874e0bda8fee6d7d3e99cf424eacf5055e312da57c162f2824",
+    "src/__init__.py": "123d72c323defd488afcc0f2d903729d1ffb703d6b94418f01a7d33af18df1c8",
+    "src/experiments.py": "ce55bbd5fb0108d12d6fc0291b4dd3d4bfa829ec97d01b5d917149a355166d85"
+  },
+  "visual_inspection": "all three extension figures checked: axes, labels and margins",
+  "pip_check": "passed",
+  "cli_invalid_parameters_and_original_prediction": "passed"
+}

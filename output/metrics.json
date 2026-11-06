@@ -1,5 +1,10 @@
 {
   "config": {
+    "plot_only": false,
+    "predict": null,
+    "experiment": null,
+    "model": null,
+    "invert": false,
     "epochs": 30,
     "batch_size": 128,
     "learning_rate": 0.005,
@@ -16,6 +21,6 @@
   "best_test_accuracy": 0.9765,
   "best_test_loss": 0.09070419017660897,
   "last_test_accuracy": 0.9756,
-  "elapsed_seconds": 22.28128634699999,
+  "elapsed_seconds": 22.005166737999843,
   "selection_note": "沿用任务书按测试准确率选择模型，无独立验证集；该测试结果不代表独立泛化评估。"
 }

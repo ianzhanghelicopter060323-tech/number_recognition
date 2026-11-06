@@ -1,0 +1,13 @@
+{
+  "strategy": "constant",
+  "seed": 44,
+  "best_epoch": 28,
+  "best_validation_accuracy": 0.966,
+  "training_seconds": 20.42062909299966,
+  "steps": 11730,
+  "initial_weights_sha256": "826b68d6061b2a76539a6d07e440acc330531e948b52c4b921c2ed723b8c87a4",
+  "training_order_sha256": "a7990367959ec1662feebcd88b45ddb330bd06a74eee4d32107db5c29b0790c6",
+  "test_correct": 9684,
+  "test_accuracy": 0.9684,
+  "test_loss": 0.15397091209888458
+}

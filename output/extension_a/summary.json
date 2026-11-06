@@ -1,0 +1,152 @@
+{
+  "samples": 10000,
+  "correct": 9765,
+  "errors": 235,
+  "accuracy": 0.9765,
+  "class_metrics": [
+    {
+      "digit": 0,
+      "support": 980,
+      "predicted": 980,
+      "correct": 968,
+      "precision": 0.9877551020408163,
+      "recall": 0.9877551020408163,
+      "f1": 0.9877551020408163
+    },
+    {
+      "digit": 1,
+      "support": 1135,
+      "predicted": 1133,
+      "correct": 1123,
+      "precision": 0.9911738746690203,
+      "recall": 0.9894273127753304,
+      "f1": 0.9902998236331569
+    },
+    {
+      "digit": 2,
+      "support": 1032,
+      "predicted": 1031,
+      "correct": 1012,
+      "precision": 0.9815712900096993,
+      "recall": 0.9806201550387597,
+      "f1": 0.9810954920019389
+    },
+    {
+      "digit": 3,
+      "support": 1010,
+      "predicted": 1023,
+      "correct": 985,
+      "precision": 0.9628543499511242,
+      "recall": 0.9752475247524752,
+      "f1": 0.9690113133300541
+    },
+    {
+      "digit": 4,
+      "support": 982,
+      "predicted": 978,
+      "correct": 957,
+      "precision": 0.9785276073619632,
+      "recall": 0.9745417515274949,
+      "f1": 0.976530612244898
+    },
+    {
+      "digit": 5,
+      "support": 892,
+      "predicted": 889,
+      "correct": 861,
+      "precision": 0.968503937007874,
+      "recall": 0.9652466367713004,
+      "f1": 0.9668725435148793
+    },
+    {
+      "digit": 6,
+      "support": 958,
+      "predicted": 949,
+      "correct": 933,
+      "precision": 0.9831401475237092,
+      "recall": 0.9739039665970772,
+      "f1": 0.9785002621919245
+    },
+    {
+      "digit": 7,
+      "support": 1028,
+      "predicted": 1035,
+      "correct": 1002,
+      "precision": 0.9681159420289855,
+      "recall": 0.9747081712062257,
+      "f1": 0.9714008725157538
+    },
+    {
+      "digit": 8,
+      "support": 974,
+      "predicted": 979,
+      "correct": 947,
+      "precision": 0.9673135852911133,
+      "recall": 0.9722792607802875,
+      "f1": 0.9697900665642601
+    },
+    {
+      "digit": 9,
+      "support": 1009,
+      "predicted": 1003,
+      "correct": 977,
+      "precision": 0.9740777666999003,
+      "recall": 0.9682854311199207,
+      "f1": 0.9711729622266402
+    }
+  ],
+  "top_confusions": [
+    {
+      "count": 11,
+      "true": 9,
+      "predicted": 4
+    },
+    {
+      "count": 10,
+      "true": 4,
+      "predicted": 9
+    },
+    {
+      "count": 10,
+      "true": 5,
+      "predicted": 3
+    },
+    {
+      "count": 9,
+      "true": 3,
+      "predicted": 7
+    },
+    {
+      "count": 9,
+      "true": 8,
+      "predicted": 5
+    },
+    {
+      "count": 8,
+      "true": 2,
+      "predicted": 7
+    },
+    {
+      "count": 8,
+      "true": 5,
+      "predicted": 8
+    },
+    {
+      "count": 8,
+      "true": 6,
+      "predicted": 5
+    },
+    {
+      "count": 8,
+      "true": 8,
+      "predicted": 3
+    },
+    {
+      "count": 7,
+      "true": 3,
+      "predicted": 8
+    }
+  ],
+  "model_sha256": "4ccbc2eb2cb4ff7e8ae4ffe6f53e9756c355d58584ee559b70097982175c9f0a",
+  "note": "基础模型按测试集选择；本实验为描述分析，不是独立泛化评估。"
+}
